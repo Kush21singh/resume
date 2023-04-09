@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio Website - Easy Tutorials</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/7ab0068bfa.js" crossorigin="anonymous"></script>
+</head>
+<body>
+<div id="header">
+    <div class="container">
+        <nav>
+            <img src="logo.png" class="logo">
+            <ul id="sidemenu">
+                <li><a href="#header">HOME</a></li>
+                <li><a href="#about">ABOUT</a></li>
+                <li><a href="#projects">PROJECTS</a></li>
+                <li><a href="#portfolio">PORTFOLIO</a></li>
+                <li><a href="#contact">CONTACT</a></li>
+                <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+            </ul>
+            <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+        </nav>
+        <div class="header-text">
+            <h1>Hi, I'm <span>Ankush Singh</span><br>From Bengaluru, India</h1>
+        </div>
+    </div>
+</div>
+<!-- -------------------About----------------- --> 
+<div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="image2.jpg">
+            </div>
+            <div class="about-col-2">
+                <h1 class="sub-title">ABOUT ME</h1>
+                <p>I am Ankush Singh, a highly-disciplined individual with a strong work ethic and a commitment to following orders and displaying loyalty in all of my endeavors. I hold a Bachelor's degree in Mechanical Engineering from Kalinga Institute of Industrial Technology in Bhubaneswar, Orissa, where I graduated with an impressive aggregate score of 76%.<br><br>My professional experience includes serving as an Assistant Engineer at Indwell Construction Company, a trusted partner of TATA Power, where I honed my technical skills and contributed to the success of multiple projects. Prior to this, I gained valuable experience in customer service as a Customer Service Associate at Tech Mahindra, a company affiliated with Amazon India.<br><br>I completed my secondary education at Kendriya Vidyalaya Air Force Station Ambala Cant, Haryana, where I graduated with first division marks. I then pursued senior secondary education at Kendriya Vidyalaya Air Force Station Sulur in Tamil Nadu, where I also graduated with first division marks.<br><br>My upbringing in the defense area has instilled in me a deep sense of discipline and dedication, qualities that I bring to all aspects of my personal and professional life.</p>
+                <div class="tab-titles"> 
+                    <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                    <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                    <p class="tab-links" onclick="opentab('education')">Education</p>
+                </div>
+                <div class="tab-contents active-tab" id="skills">
+                    <ul>
+                        <li>Confident, Determined, and Responsible</li>
+                        <li>Strong work ethics</li>
+                        <li>Technical presentations</li>
+                        <li>Engineering plan preparation</li>
+                        <li>Excellent problem-solving skills</li>
+                        <li>Researching knowledge</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="experience">
+                    <ul>
+                        <li><span>Asst. Engineer 2021-2022</span><br>Indwell Construction Pvt Ltd</li>
+                        <li><span>SME Subject Matter Expert 2020-2021</span><br>Tech Mahindra Ltd</li>
+                        <li><span>Associate 2019-2020</span><br>Tech Mahindra Ltd</li>
+                        <li><span>Summer Intern 2018-2018</span><br>NTPC Ltd, Hazaribagh, Jharkhand</li>
+                        <li><span>Summer Intern 2017-2017</span><br>HAL Tejas Division, Bangalore</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="education">
+                    <ul>
+                        <li><span>B.Tech Mechanical Engineering 2015-2019</span><br>Kalinga Institute Of Industrial Technology<br>Bhubaneshwar Orissa</li>
+                        <li><span>Higher Secondary 2013-2014</span><br>Kendriya Vidyalaya Air Force Station<br>Sulur Tamil Nadu</li>
+                        <li><span>Secondary 2011-2012</span><br>Kendriya Vidyalaya Air Force Station<br>Ambala Cant. Haryana</li>
+                    </ul>
+                </div>    
+            </div>
+        </div>
+    </div>
+</div>
+<!-- ---------------Services---------------------- -->
+<div id="projects">
+    <div class="container">
+        <h1 class="sub-title">PROJECTS</h1>
+        <div class="projects-list">
+            <div>
+                <h2>SAE AERO DESIGN CHALLENGE 2018</h2>
+                <p>Team Captain, KIIT Udaan<br>The member manufacturing division of the team.<br>Manufactured low drag wing for our RC fixed-wing plane.<br>Overall ranking 16th in all over India</p>
+                <!--<a href="#">Learn More</a>-->
+            </div>
+            <div>
+                <h2>HINDUSTAN AERONAUTICS LIMITED (TEJAS DIVISION) 2017</h2>
+                <p>Designed the elevon bracket.<br>Studied and suggested the new type of hydraulic break in Tejas aircraft main landing gear.</p>
+                <!--<a href="#">Learn More</a>-->
+            </div>
+            <div>
+                <h2>SAE AERO DESIGN CHALLENGE 2017</h2>
+                <p>Team Member, Udaan<br>The member manufacturing division of the team.<br>Manufactured low drag wing for our RC fixed-wing plane.<br>Got best design award<br>Overall ranking 5th in all over India</p>
+                <!--<a href="#">Learn More</a>-->
+            </div>
+            <div>
+                <h2>RESTORATION PROJECT FOR A IC ENGINE PLANE 2017</h2>
+                <p>Team member of a group of 10, aimed at restoring the 2014 Regular class RC fixed-wing.<br>Resolved all the issues associated</p>
+                <!--<a href="#">Learn More</a>-->
+            </div>
+            <div>
+                <h2>RC Delta Wing Mirage 2000 2017</h2>
+                <p>Team captain of delta wing project.<br>Head of manufacturing division of the team.</p>
+                <!--<a href="#">Learn More</a>-->
+            </div>
+            <div>
+                <h2>Boeing Aero modeling Challenge (IIT BOMBAY) 2016</h2>
+                <p>Team Captain<br>Head of manufacturing division of the team.<br>Designed wing and tail of the micro class plane with a pretty good gliding ratio</p>
+                <!--<a href="#">Learn More</a>-->
+            </div>
+        </div>
+    </div>
+</div>
+<!-- -------------------- Portfolio------------------- -->
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">PORTFOLIO</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="IMG20220223221900.jpg" alt="">
+                <div class="layer">
+                    <h3>Thermal Power Plant</h3>
+                    <p>A thermal power plant maintenance engineer is responsible for ensuring the safe and efficient operation of a thermal power plant. They work to maintain and repair equipment such as turbines, boilers, generators, pumps, and other machinery that is used to generate electricity from thermal sources such as coal, natural gas, and oil.</p>
+                    <!--<a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>-->
+                </div>
+            </div>
+            <div class="work">
+                <img src="Definition-of-Subject-Matter-Expert-SME-Outsource-Accelerator.webp" alt="">
+                <div class="layer">
+                    <h3>Subject Matter Expert</h3>
+                    <p>A Subject Matter Expert (SME) in customer service is a highly skilled and experienced professional who provides expert guidance and support in the field of customer service. They are responsible for analyzing, evaluating, and improving customer service operations to ensure that they are aligned with the organization's goals and objectives.</p>
+                    <!--<a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>-->
+                </div>
+            </div>
+            <div class="work">
+                <img src="customer-support-2-1280x720.jpg" alt="">
+                <div class="layer">
+                    <h3>Associate Customer Service</h3>
+                    <p>An Associate in customer service is an entry-level position responsible for providing support to customers with their inquiries, concerns, or issues. Associates in customer service act as the first point of contact for customers and are responsible for ensuring that they receive prompt and efficient service.</p>
+                    <!--<a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>-->
+                </div>
+            </div>
+        </div>
+        <!--<a href="#" class="btn">See More</a>-->
+    </div>
+</div>
+<!--  ----------------------------Contact------------------------------- -->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">CONTACT ME</h1>
+                <p><i class="fa-solid fa-paper-plane"></i> ankush56756@gmail.com</p>
+                <p><i class="fa-solid fa-square-phone-flip"></i> +917892111514</p>
+                <div class="social-icons">
+                    <a href="https://www.facebook.com/ankush.singh.1029770"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="https://www.instagram.com/ankush_singh12/"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://www.linkedin.com/in/ankush-singh-50354810a/"><i class="fa-brands fa-linkedin"></i></a>
+                </div>
+                <a href="Ankush_Singh_Resume.pdf" download="" class="btn btn2">DOWNLOAD CV</a>
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="Email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+                <span id="msg"></span>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Copyright Ankush Singh</p>
+    </div>
+</div>
+<script>
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+    function opentab(tabname){
+        for (tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        
+        for (tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+</script>
+<script>
+    var sidemenu = document.getElementById("sidemenu");
+    function openmenu(){
+        sidemenu.style.right = '0';
+    }
+    function closemenu(){
+        sidemenu.style.right = '-200px';
+    }
+</script>
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbyHcQ93DXEQUrXfWkbR95BK7AlZnb0E4-xR0GXIkPVGo8rHLGCIuT8RgnB01fo3xuZY_A/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById("msg")
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML = "Message Sent Successfully"
+            setTimeout(function(){
+                msg.innerHTML = ""
+            },5000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>   
+</body>
+</html>
